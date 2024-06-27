@@ -1,0 +1,11 @@
+[toolchain]
+channel = "nightly-2023-12-01"
+components = [
+	"rust-src",
+	"clippy",
+	"cargo",
+	"rustfmt",
+	"rust-analyzer",
+	"rust-docs",
+]
+targets = ["riscv32imc-esp-espidf"]
